@@ -1,0 +1,107 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+.link{
+text-decoration: none;
+padding: 0.5rem 1rem;
+}
+.link-primary {
+    background-color: yellow;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary {
+    color: yellow;
+    border-radius: 0.5rem;
+    border: 1px solid yellow;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+.navigation {
+background-color: #fde047;
+color: black;
+padding: 1rem;
+border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-hmm {
+font-weight: bold;
+}
+
+.navigation .nav-pills {
+text-align: right;
+}
+
+.navigation .link {
+color:black;
+}
+
+.navigation .link-active {
+font-weight: bold;
+}
+textarea {
+text-align: center;
+width: 80%;
+height: 10vh;
+display: block;
+margin: auto;
+padding: 1rem ;
+background-color: none;
+}
+#output {
+text-align: center;
+border: 1px solid black; 
+height: 10vh;
+width: 80%;
+margin: auto;
+padding: 1rem;
+}
+#btn-translate {
+font-size: larger;
+border-color: yellow;
+text-align: center;
+margin: auto;
+display: flex;
+color: rgb(0, 0, 0);
+}
+.heading {
+text-align: center;
+color: black;
+
+}
+.bodyy{
+    background-image: url("minbg.jpg");
+}
+
+
+.footer {
+    margin-top: 3.5%;
+    background-color: #fde047;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: black;
+    border-top-right-radius: 1rem;
+    
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer .link {
+    color: black;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
